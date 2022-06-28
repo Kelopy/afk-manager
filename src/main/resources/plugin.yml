@@ -1,0 +1,16 @@
+name: AFKManager
+version: '${project.version}'
+main: me.kelopy.afkmanager.AFKManager
+api-version: 1.19
+authors: [ Kelopy ]
+commands:
+  isafk:
+    description: Check to see if someone is AFK
+    usage: /<command> [player]
+    permission: afkmanager.isafk
+    permission-message: "§cYou don't have permission to execute this command."
+  afk:
+    description: Toggle your AFK status
+    usage: <command>
+    permission: afkmanager.afk
+    permission-message: "§cYou don't have permission to execute this command."
