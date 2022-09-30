@@ -1,3 +1,3 @@
 # AFK Manager
 
-Credits to KodySimpson
+- AFK detection, manually set your afk status and have it announced to the server
